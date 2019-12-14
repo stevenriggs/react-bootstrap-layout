@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Container, Row} from 'react-bootstrap';
 import Header from './components/global/Header';
+import Records from './components/records/Records';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Header />
       </Row>
       <Row className='h-100'>
-        Content
+        <Records />
       </Row>
     </Container>
   );
