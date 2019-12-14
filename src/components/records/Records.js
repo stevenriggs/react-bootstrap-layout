@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 function Records() {
   return (
-    <Container>
+    <Container fluid>
         <Row>
             RecordsHeader
         </Row>
