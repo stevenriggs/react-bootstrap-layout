@@ -1,27 +1,21 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
+import RecordsFooter from './RecordsFooter';
+import RecordsHeader from './RecordsHeader';
 
 function Records() {
   return (
-    <Container fluid>
-        <Col>
-            <Row>
-                <Col className='m-0 p-0'>
-                    RecordsHeader
-                </Col>
-            </Row>
-            <Row>
-                <Col className='m-0 p-0'>
-                    RecordsTable
-                </Col>
-            </Row>
-            <Row>
-                <Col className='m-0 p-0'>
-                    RecordsFooter
-                </Col>
-            </Row>
-        </Col>
-    </Container>
+    <div className='debug d-flex flex-column w-100'>
+        <div className='d-flex flex-grow-0'>
+            <RecordsHeader />
+        </div>
+        <div className='debug d-flex flex-grow-1'>
+            RecordsTable
+        </div>
+        <div className='d-flex flex-grow-0'>
+            <RecordsFooter />
+        </div>
+    </div>
   );
 }
 

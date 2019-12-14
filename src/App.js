@@ -7,18 +7,14 @@ import Records from './components/records/Records';
 
 function App() {
   return (
-    <Container fluid className='vh-100'>
-      <Row>
-        <Col className='m-0 p-0'>
-          <Header />
-        </Col>
-      </Row>
-      <Row>
-        <Col className='m-0 p-0'>
-          <Records />
-        </Col>
-      </Row>
-    </Container>
+    <div className='vh-100 d-flex flex-column'>
+      <div className='d-flex flex-grow-0'>
+        Header
+      </div>
+      <div className='d-flex flex-grow-1'>
+        <Records />
+      </div>
+    </div>
   );
 }
 
