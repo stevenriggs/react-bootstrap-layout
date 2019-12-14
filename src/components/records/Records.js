@@ -5,13 +5,19 @@ function Records() {
   return (
     <Container fluid>
         <Row>
-            RecordsHeader
+            <Col className='m-0 p-0'>
+                RecordsHeader
+            </Col>
         </Row>
         <Row>
-            RecordsTable
+            <Col className='m-0 p-0'>
+                RecordsTable
+            </Col>
         </Row>
         <Row>
-            RecordsFooter
+            <Col className='m-0 p-0'>
+                RecordsFooter
+            </Col>
         </Row>
     </Container>
   );

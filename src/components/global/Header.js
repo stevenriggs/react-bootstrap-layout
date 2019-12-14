@@ -1,10 +1,14 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 function Header() {
     return (
         <Container fluid>
-            Header
+            <Row>
+                <Col className='m-0 p-0'>
+                    Header
+                </Col>
+            </Row>
         </Container>
     );
 }
