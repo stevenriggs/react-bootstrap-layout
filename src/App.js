@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='vh-100 d-flex flex-column'>
       <div className='d-flex flex-grow-0 flex-shrink-0'>
-        Header
+        <Header />
       </div>
       <div className='d-flex flex-grow-1 h-50'>
         <Records />
